@@ -12,7 +12,7 @@ RUN sudo -u graphite virtualenv --system-site-packages ~graphite/env
 
 RUN echo "django==1.5 \n \
   python-memcached \n \
-  django-tagging \n \
+  django-tagging==0.3.6 \n \
   twisted==11.1.0 \n \
   gunicorn \n \
   whisper==0.9.12 \n \
