@@ -10,7 +10,7 @@ RUN adduser --system --group --no-create-home collectd && adduser --system --hom
 
 RUN sudo -u graphite virtualenv --system-site-packages ~graphite/env
 
-RUN echo "django >=1.3.7,<1.4 \n \
+RUN echo "django \n \
   python-memcached \n \
   django-tagging \n \
   twisted==11.1.0 \n \
