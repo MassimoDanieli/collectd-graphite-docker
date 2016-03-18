@@ -14,7 +14,7 @@ https://github.com/MailOnline/collectd-graphite
 Build:
 
 ```
-docker build -t graphite github.com/jeffutter/collectd-graphite-docker
+docker build -t graphite github.com/massimodanieli/collectd-graphite-docker
 ```
 
 Run:
